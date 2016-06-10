@@ -1,2 +1,1 @@
-# blog
-my blog
+http://vapy.github.io/blog/
