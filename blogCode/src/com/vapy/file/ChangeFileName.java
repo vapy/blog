@@ -17,9 +17,10 @@ public class ChangeFileName
 	public static void main(String[] args)
 	{
 		File file = new File("E:/movies");
-		change(file, level);
+		changeName(file, level);
 	}
-	public static void change(File file, int level)
+	
+	public static void changeName(File file, int level)
 	{
 		/* 该部分用于给文件分级 */
 		levelStr = "";
@@ -40,6 +41,6 @@ public class ChangeFileName
 		}
 		File[] subFile = file.listFiles();
 		for(File f : subFile)
-			change(f, level+1);
+			changeName(f, level+1);
 	}
 }
