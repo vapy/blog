@@ -8,9 +8,9 @@ package com.vapy.behavior.Observe;
  */
 public class Client {
 	public static void main(String[] args) {
-		Subject sub = new MousePad();
-		sub.addObserver(new MousePadListener1());
-		sub.addObserver(new MousePadListener2());
-		sub.doSomething();
+		Subject sub = new Mouse();
+		sub.addObserver(new MouseListener1());
+		sub.addObserver(new MouseListener2());
+		sub.click();
 	}
 }

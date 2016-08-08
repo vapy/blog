@@ -17,11 +17,11 @@ public abstract class Subject {
 		this.obs.remove(observer);
 	}
 	
-	protected void notifyObserver() {
+	protected void notifyObservers() {
 		for(Observer o : obs) {
 			o.update();
 		}
 	}
 	
-	public abstract void doSomething();
+	public abstract void click();
 }
