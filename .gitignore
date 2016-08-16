@@ -16,3 +16,6 @@ designModel/.settings/org.eclipse.jdt.core.prefs
 blogCode/.classpath
 blogCode/.settings/org.eclipse.jdt.core.prefs
 blogCode/.project
+designPattern/.classpath
+designPattern/.project
+designPattern/.settings/org.eclipse.jdt.core.prefs
