@@ -1,9 +1,11 @@
 package com.vapy.offer;
+
 /**
  *
  * @author vapy 2016年9月10日
  *
  */
+
 import java.util.Scanner;
 
 public class Main {
