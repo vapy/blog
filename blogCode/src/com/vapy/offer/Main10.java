@@ -9,6 +9,7 @@ import java.util.Scanner;
  * @author vapy 2016年10月6日
  * 
  */
+
 public class Main10 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
