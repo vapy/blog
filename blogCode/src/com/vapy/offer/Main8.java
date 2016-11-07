@@ -12,7 +12,7 @@ public class Main8 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String input = sc.nextLine();
-		
+		sc.close();
 		// 去掉 ' , '
 		input = input.replaceAll(",", "");
 		input = input.replaceAll("'", "");

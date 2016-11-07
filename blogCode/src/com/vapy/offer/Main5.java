@@ -14,6 +14,7 @@ public class Main5 {
 			input = sc.nextInt();
 			func(input);
 		}
+		sc.close();
 	}
 	
 	public static void func(int input) {

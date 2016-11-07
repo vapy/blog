@@ -13,8 +13,9 @@ public class Main9 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String input = sc.nextLine();
+		sc.close();
 		String[] str = input.split(",");
-		BigDecimal[] bgInput = new BigDecimal[str.length];
+//		BigDecimal[] bgInput = new BigDecimal[str.length];
 		BigDecimal result = new BigDecimal(0);
 		for (int i = 0, len = str.length; i < len; i++) {
 			str[i] = str[i].replaceAll("\"", "");

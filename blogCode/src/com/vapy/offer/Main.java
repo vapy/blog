@@ -18,6 +18,7 @@ public class Main {
 			}
 			System.out.println(func(str[0], str[1], str[2]));
 		}
+		sc.close();
 	}
 
 	public static String func(String str, String a, String b) {

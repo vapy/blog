@@ -14,6 +14,7 @@ public class Main2 {
 		if (sc.hasNextLine()) {
 			inputString = sc.nextLine();
 		}
+		sc.close();
 		String[] inputArrayInt = inputString.split(",");
 		int len = inputArrayInt.length;
 		int[] intArray = new int[len];

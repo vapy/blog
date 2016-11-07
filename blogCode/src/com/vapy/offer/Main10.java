@@ -17,6 +17,7 @@ public class Main10 {
 		if (sc.hasNext()) {
 			input = sc.next();
 		}
+		sc.close();
 		String[] str = input.split("-");
 		int[] intInput = new int[str.length];
 		for (int i = 0, len = str.length; i < len; i++) {

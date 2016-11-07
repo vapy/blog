@@ -18,6 +18,7 @@ public class Main3 {
 		if (sc.hasNextInt()) {
 			count = sc.nextInt();
 		}
+		sc.close();
 		int[] array = new int[count];
 		for (int i = 0; i < count; i++) {
 			array[i] = sc.nextInt();

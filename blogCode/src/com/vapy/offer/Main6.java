@@ -17,6 +17,7 @@ public class Main6 {
 		if (sc.hasNext()) {
 			input = sc.next();
 		}
+		sc.close();
 		if (count <= 0) {
 			System.out.println("error");
 		}

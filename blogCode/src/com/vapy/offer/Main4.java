@@ -14,6 +14,7 @@ public class Main4 {
 			count = sc.nextInt();
 			sc.nextLine();
 		}
+		sc.close();
 		String[] input = new String[count];
 		for (int i = 0; i < count; i++) {
 			input[i] = sc.nextLine();
