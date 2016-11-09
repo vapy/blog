@@ -8,9 +8,9 @@ package com.vapy.structure.Flyweght;
 
 public class FlyweightTest {
 	public static void main(String[] args) {
-		String str1 = "a";
-		String str2 = "b";
-		String str3 = "ab";
+		String str1 = "A";
+		String str2 = "B";
+		String str3 = "AB";
 		
 		String str4;
 		str4 = str1 + str2;
