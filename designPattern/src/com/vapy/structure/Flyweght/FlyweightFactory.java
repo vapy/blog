@@ -1,4 +1,4 @@
-package com.vapy.structure.flyweght;
+package com.vapy.structure.Flyweght;
 
 import java.util.HashMap;
 
