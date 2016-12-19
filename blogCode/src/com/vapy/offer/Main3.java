@@ -23,6 +23,7 @@ public class Main3 {
 		for (int i = 0; i < count; i++) {
 			array[i] = sc.nextInt();
 		}
+		sc.close();
 		System.out.println(func(array, des));
 	}
 
