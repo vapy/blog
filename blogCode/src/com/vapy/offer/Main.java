@@ -18,7 +18,7 @@ public class Main {
 			}
 			System.out.println(func(str[0], str[1], str[2]));
 		}
-		// 一定不能忘记关资源
+		//  一定不能忘记关资源
 		sc.close();
 	}
 
