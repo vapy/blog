@@ -19,6 +19,7 @@ public class Main4 {
 		for (int i = 0; i < count; i++) {
 			input[i] = sc.nextLine();
 		}
+		sc.close();
 		func(input);
 		for (String s : input) {
 			System.out.println(s);
